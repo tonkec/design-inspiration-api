@@ -80,6 +80,25 @@ html {
   transform:translatZ(0) scale(1.05);
 }
 
+.button2{
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin: 0px 0px 5px 0px;
+  font-family: "Lucida Console", Monaco, monospace;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease; 
+  -o-transition: all .3s ease; 
+  -ms-transition: all .3s ease;
+}
+.button2:hover{
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform:translateZ(0) scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:translatZ(0) scale(1.05);
+    transform:translatZ(0) scale(1.05);
+}
 
 p{
   color: white;
