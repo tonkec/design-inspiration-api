@@ -53,13 +53,8 @@ html {
   letter-spacing: .1em;
 }
 
-@media all and (max-width: 750px){
-  .title{
-    font-size: 30px;
-  }
-}
-
 .button{
+  display: block;
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
   margin: 5px 0px 5px 0px;
@@ -256,7 +251,28 @@ p{
 }
 
 .main-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 20px auto 0;
+  width: 60%;
+}
+
+
+@media all and (max-width: 768px){
+  .title{
+    font-size: 30px;
+  }
+
+  .button {
+    margin: 20px;
+
+  }
+}
+
+@media (min-width: 550px) {
+  .main-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+  }
 }
