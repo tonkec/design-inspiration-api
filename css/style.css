@@ -95,12 +95,6 @@ html {
     transform:translatZ(0) scale(1.05);
 }
 
-p{
-  color: white;
-  text-shadow: black 0.1em 0.1em 0.2em;
-  margin: 10px 0px 15px 0px;
-  font-family: "Courier New", Courier, monospace;
-}
 
 @keyframes bg-cycle {
   0% {
